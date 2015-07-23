@@ -742,8 +742,9 @@ declare module google {
             draw(...args: any[]): void;
         }
 
-        export class DateFormatter
+        export class DateFormat
         {
+            constructor(...args: [])
             format(date: any[], someValue: number): void;
         }
 
