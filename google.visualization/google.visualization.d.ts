@@ -736,6 +736,11 @@ declare module google {
 			showDataColumns(columnIndexes: number | number[]): void;
 		}
 
+        export class ComboChart extends CoreChartBase
+        {
+            draw(...args: any[]): void;
+        }
+
 		// https://developers.google.com/chart/interactive/docs/gallery/annotationchart#Configuration_Options
 	    export interface AnnotationChartOptions
 		{
