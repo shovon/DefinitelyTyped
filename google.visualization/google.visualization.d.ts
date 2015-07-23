@@ -739,18 +739,18 @@ declare module google {
         // TODO: clean this up.
         export class ComboChart extends CoreChartBase
         {
-            draw(...args: any): void;
+            draw(...args: any[]): void;
         }
 
         export class DateFormat
         {
-            constructor(...args: []);
+            constructor(...args: any[]);
             format(value: any, someValue: number): void;
         }
 
         export class NumberFormat
         {
-            constructor(...args: []);
+            constructor(...args: any[]);
             format(value: any, someValue: number): void;
         }
 
