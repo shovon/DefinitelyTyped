@@ -736,9 +736,15 @@ declare module google {
 			showDataColumns(columnIndexes: number | number[]): void;
 		}
 
+        // TODO: clean this up.
         export class ComboChart extends CoreChartBase
         {
             draw(...args: any[]): void;
+        }
+
+        export class DateFormatter
+        {
+            format(...args[]: any, someValue: number);
         }
 
 		// https://developers.google.com/chart/interactive/docs/gallery/annotationchart#Configuration_Options
