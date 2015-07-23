@@ -744,7 +744,7 @@ declare module google {
 
         export class DateFormatter
         {
-            format(...args[]: any, someValue: number);
+            format(...args[]: any, someValue: number): void;
         }
 
 		// https://developers.google.com/chart/interactive/docs/gallery/annotationchart#Configuration_Options
